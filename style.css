@@ -1,0 +1,180 @@
+.head{
+    background-color: #D9DFC6;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.nav{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #EFF3EA; 
+    padding: 10px;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    gap: 50px;
+}
+
+.nav ul .li-left {
+    margin: 0px 0px;
+}
+.nav ul .li-right {
+    margin-left: auto;
+    margin-right: 1dvh;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: rgb(211, 208, 142);
+}
+.content{
+    background-color: #FFFDF0;
+    border-radius: 15px;
+    font-size: 25px; 
+}
+.content-title {
+    font-size: 50px;
+    margin-top: 0%;
+    margin: 30px;
+}
+.content-body {
+    max-width: 1500px;
+    margin: 30px;
+    display: flex;
+    gap: 30px; 
+    align-items: center;
+}
+.content-body img {
+    width: 40%;
+    height: auto; 
+    border-radius: 10px;
+}
+.content-body p {
+    font-size: 20px;
+    width: 60%; 
+    text-align: justify; 
+}
+
+/* -- AKHIR BAGIAN YANG DIBENERIN -- */
+
+.footer{
+    background-color: lightblue;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menu-section {
+    max-width: 15000px;
+    margin: 60px 30px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-size: 50px;
+    color: #60492C;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.menu-grid {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: left;
+    gap: 30px;
+}
+
+.menu-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    width: 250px; 
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.menu-card h3 {
+    font-size: 1.5em;
+    color: #60492C;
+    margin: 15px 0 10px 0;
+}
+
+.menu-card p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #A0522D;
+    margin-bottom: 20px;
+}
+
+/* -- BAGIAN FORM RESERVASI -- */
+
+.Body-reservasi{
+    margin-top: 0%;
+    background-color: #FFFDF0;
+}
+
+.body-form{
+    margin-top: 10px ;
+    background-color: #ffffff;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    max-width: 1500px;
+    box-shadow: 0 4px 15px  rgba(0,0,0,0.1);
+    
+}
+.body-form h2{   
+    color : #60492C;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.form-body{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+input[type="number"]{
+    background-color: #ffffff;
+    border: 0;;
+    padding: 5px;
+    width: 95%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}   
+input[type = "submit"]{
+    width: 70px;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    background-color: dodgerblue;
+}
+

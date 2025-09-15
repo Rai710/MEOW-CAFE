@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservasi Meow Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "head">
+        <h1>Reservasi makanan</h1>
+    </div>
+    <div class = "nav">
+        <ul>
+            <li class = "li-left"><a href="Home.html">Home</a></li>
+            <li class = "li-left"><a href="Home.html#produk">Produk</a></li>
+            <li class = "li-right"><a href="contact.html">Reservasi</a></li>
+        </ul>
+    </div>
+    <div class = "Body-reservasi">
+            <div class = "body-form">
+                <h2>Form Reservasi Meow Cafe</h2>
+                <form class= "form-body" action= "Aksi.html" method="get">
+                    <label for="nama">Nama : </label><br>
+                    <input type="text" id="nama" name="nama" required><br><br>
+
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="telepon">Nomor Telepon : </label><br>
+                    <input type="tel" id="telepon" name="telepon" required><br><br>
+                    
+                    <label for="tanggal">Tanggal Reservasi:</label><br>
+                    <input type="date" id="tanggal" name="tanggal" required><br><br>
+
+                    <label for="waktu">Waktu Reservasi:</label><br>
+                    <input type="time" id="waktu" name="waktu" required><br><br>
+
+                    <label for="jumlah">Jumlah Orang:</label><br>
+                    <input type="number" id="jumlah" name="jumlah" min="1" required><br><br>
+
+                    <label for="area">Area : </label><br>
+                    <input type="radio" id="area-interaksi" name="area" value="indoor" required> <label for="area-interaksi">Area Interaksi</label>
+                    <input type="radio" id="area-non" name="area" value="outdoor" required> <label for="area-non">Area Non Interaksi</label><br><br>
+                    
+                    <label for="permintaan">TAMBAHAN : </label><br>
+                    <input type="checkbox" id="req-colokan" name="permintaan" value="colokan"> <label for="req-colokan">Colokan terminal</label><br>
+                    <input type="checkbox" id="req-mainan" name="permintaan" value="Mainan"> <label for="req-mainan">Mainan kucing</label><br>
+                    <input type="checkbox" id="req-anak" name="permintaan" value="Anak 5 tahun"> <label for="req-anak">Bersama Anak kecil</label><br>
+                    <input type="checkbox" id="req-makan" name="permintaan" value="makanan"> <label for="req-makan">Ikut sesi makan</label><br><br>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+    </div>
+        
+</body>
+
+<footer class="footer">    
+    <p>Copyright © 2025 Meow Meow Cafe - All Rights Reserved</p>
+</footer>
+</html>
+
